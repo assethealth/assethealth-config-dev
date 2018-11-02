@@ -1,0 +1,37 @@
+# ===================================================================
+# Spring Boot configuration for the "cloudfoundry" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    instance:
+        prefer-ip-address: false
+        hostname: ${vcap.application.uris[0]}
+        nonSecurePort: 80
+    client:
+        service-url:
+            defaultZone: https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/
+            # defaultZone: ${vcap.services.p-service-registry[0].credentials.uri}
+            # defaultZone: https://eureka-8c1b434e-5288-4298-b5b9-3878b8b3b7e3.cfapps.io
+server:
+    port: 8080
+logging:
+    level:
+        com.bmcd.asset.health.uaa: DEBUG
+        io.github.jhipster: DEBUG
+spring:
+    data:
+        jest:
+             uri: https://cloudfoundry:2efb39ac294a4d5af8b7686f46869565@thorin-us-east-1.searchly.com
+liquibase:
+        contexts: demo
+jhipster:
+    registry:
+        password: GoshawkRules!
