@@ -13,7 +13,7 @@
 eureka:
     instance:
         prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}
+        hostname: ${vcap.application.uris[0]}/
         nonSecurePort: 80
     client:
         service-url:
