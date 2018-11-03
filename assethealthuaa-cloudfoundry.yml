@@ -13,13 +13,8 @@
 eureka:
     instance:
         prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}/
+        hostname: ${vcap.application.uris[0]}
         nonSecurePort: 80
-    client:
-        service-url:
-            defaultZone: https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/
-            # defaultZone: ${vcap.services.p-service-registry[0].credentials.uri}
-            # defaultZone: https://eureka-8c1b434e-5288-4298-b5b9-3878b8b3b7e3.cfapps.io
 server:
     port: 8080
 logging:
