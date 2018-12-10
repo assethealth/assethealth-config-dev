@@ -10,21 +10,6 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-    instance:
-        prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}
-        nonSecurePort: 80
-server:
-    port: 8080
-logging:
-    level:
-        com.bmcd.asset.health.uaa: DEBUG
-        io.github.jhipster: DEBUG
-jhipster:
-    registry:
-        password: GoshawkRules!
-
 uaa:
     oauth-authentication-parameters:
         -
