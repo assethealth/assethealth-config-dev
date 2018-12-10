@@ -24,3 +24,16 @@ logging:
 jhipster:
     registry:
         password: GoshawkRules!
+
+uaa:
+    oauth-authentication-parameters:
+        -
+            name:  Goshawk Dev
+            url: https://login.microsoftonline.com/bfbb9a2b-6d99-4e78-b3c7-95005d555c8b/oauth2/v2.0/token
+            client-id: 98e0d32c-4ffd-4238-a258-888179a861c8
+            application-id: d3a91b68-3720-47fc-ad3c-ee3848330199
+        -
+            name:  Goshawk AAD
+            url: https://login.microsoftonline.com/bfbb9a2b-6d99-4e78-b3c7-95005d555c8b/oauth2/v2.0/token
+            client-id: 98e0d32c-4ffd-4238-a258-888179a861c8
+            application-id: 98e0d32c-4ffd-4238-a258-888179a861c8
