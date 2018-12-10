@@ -15,8 +15,8 @@ eureka:
         prefer-ip-address: false
         hostname: ${vcap.application.uris[0]}
         nonSecurePort: 80
-server:
-    port: 8080
+#server:
+#    port: 8080
 logging:
     level:
         com.bmcd.asset.health.uaa: DEBUG
