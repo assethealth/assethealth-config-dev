@@ -19,6 +19,7 @@
 #        service-url:
 #            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
 info:
+info:
     sso:
         enabled:  true
         image-url:  https://www.unilever.com/Images/unilever-logo_tcm244-409314.svg
@@ -34,7 +35,7 @@ liquibase:
 #        password: GoshawkRules!
 application:
     aad:
-        name:  Goshawk Multi-Tenant
+        name:  Goshawk Single-Tenant
         url:  https://login.microsoftonline.com/
         tenant-id:  bfbb9a2b-6d99-4e78-b3c7-95005d555c8b
-        client-id:  bc98bc84-e8f2-4e4b-be74-aef1c3e188fc
+        client-id:  28916b3a-32ae-4416-a125-d789f1ecc32a

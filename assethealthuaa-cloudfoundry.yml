@@ -37,8 +37,8 @@ uaa:
             application-id: 98e0d32c-4ffd-4238-a258-888179a861c8
     oauth-authorization-parameters:
         -
-            name:  Goshawk Multi-Tenant
+            name:  Goshawk Single-Tenant
             url:  https://login.microsoftonline.com/
             tenant-id:  bfbb9a2b-6d99-4e78-b3c7-95005d555c8b
-            client-id:  bc98bc84-e8f2-4e4b-be74-aef1c3e188fc
-            client-secret:  q*l77wUakL*+6-EL}zf
+            client-id:  28916b3a-32ae-4416-a125-d789f1ecc32a
+            client-secret:  7vaF:2bBNe5Wfd-9)W#rQKKbt.-N
