@@ -10,14 +10,14 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-    instance:
-        prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}/
-        nonSecurePort: 80
-    client:
-        service-url:
-            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
+#eureka:
+#    instance:
+#        prefer-ip-address: false
+#        hostname: ${vcap.application.uris[0]}/
+#        nonSecurePort: 80
+#    client:
+#        service-url:
+#            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
 info:
     sso:
         enabled:  true
@@ -29,9 +29,9 @@ logging:
         io.github.jhipster: DEBUG
 liquibase:
         contexts: demo
-jhipster:
-    registry:
-        password: GoshawkRules!
+#jhipster:
+#    registry:
+#        password: GoshawkRules!
 application:
     aad:
         name:  Goshawk Multi-Tenant
