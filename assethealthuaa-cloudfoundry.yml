@@ -19,7 +19,7 @@ server:
     port: 8080
 logging:
     level:
-        com.bmcd.asset.health.uaa: DEBUG
+        com.bmcd.asset.health: DEBUG
         io.github.jhipster: DEBUG
 #jhipster:
 #    registry:

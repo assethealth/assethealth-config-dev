@@ -25,7 +25,7 @@ info:
         client-text:  Unilever
 logging:
     level:
-        com.bmcd.asset.health.uaa: DEBUG
+        com.bmcd.asset.health: DEBUG
         io.github.jhipster: DEBUG
 liquibase:
         contexts: demo
