@@ -10,31 +10,21 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-#eureka:
-#    instance:
-#        prefer-ip-address: false
-#        hostname: ${vcap.application.uris[0]}/
-#        nonSecurePort: 80
-#    client:
-#        service-url:
-#            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
+logging:
+    level:
+        com.bmcd.asset.health: DEBUG
+        io.github.jhipster: DEBUG
 info:
     sso:
         enabled:  true
         image-url:  https://www.unilever.com/Images/unilever-logo_tcm244-409314.svg
         client-text:  Unilever
-logging:
-    level:
-        com.bmcd.asset.health: DEBUG
-        io.github.jhipster: DEBUG
 liquibase:
         contexts: demo
-#jhipster:
-#    registry:
-#        password: GoshawkRules!
 application:
     aad:
-        name:  Goshawk Single-Tenant
+        name:  Goshawk Single-Tenant - Test
         url:  https://login.microsoftonline.com/
         tenant-id:  bfbb9a2b-6d99-4e78-b3c7-95005d555c8b
         client-id:  ec1e1b1e-6afc-47d9-b592-8d9000d338ad
+#
