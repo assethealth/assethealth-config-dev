@@ -40,5 +40,6 @@ uaa:
             name:  Goshawk Single-Tenant
             url:  https://login.microsoftonline.com/
             tenant-id:  bfbb9a2b-6d99-4e78-b3c7-95005d555c8b
-            client-id:  28916b3a-32ae-4416-a125-d789f1ecc32a
-            client-secret:  7vaF:2bBNe5Wfd-9)W#rQKKbt.-N
+            client-id:  ec1e1b1e-6afc-47d9-b592-8d9000d338ad
+            client-secret:  u3Uibp+V*8HsNt@V}WuCAIom&cm1ERpE$2cP)O$t*_
+            
