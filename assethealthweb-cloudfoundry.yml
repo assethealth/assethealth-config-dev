@@ -19,7 +19,6 @@
 #        service-url:
 #            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
 info:
-info:
     sso:
         enabled:  true
         image-url:  https://www.unilever.com/Images/unilever-logo_tcm244-409314.svg
