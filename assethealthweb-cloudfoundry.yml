@@ -17,8 +17,8 @@ logging:
 info:
     sso:
         enabled:  true
-        image-url:  https://www.unilever.com/Images/unilever-logo_tcm244-409314.svg
-        client-text:  Unilever
+        image-url:  https://info.burnsmcd.com/hubfs/BMCD_PR_2016/General_Assets/BMCD_PR_2016_CompanyLogo.jpg
+        client-text:  Burns & McDonnell
 liquibase:
         contexts: demo
 application:
