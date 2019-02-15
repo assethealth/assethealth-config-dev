@@ -12,14 +12,6 @@
 
 server:
     port: 8080
-eureka:
-    instance:
-        prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}/
-        nonSecurePort: 80
-    client:
-        service-url:
-            defaultZone: ${vcap.services.p-service-registry[0].credentials.uri:https://admin:${jhipster.registry.password}@assethealthregistry.cfapps.io/eureka/}
 logging:
     level:
         com.bmcd.asset.health.uaa: DEBUG
