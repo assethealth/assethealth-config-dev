@@ -24,7 +24,9 @@ uaa:
     oauth-authentication-parameters:
         -
             name:  Goshawk AAD
-            url: https://login.microsoftonline.com/bfbb9a2b-6d99-4e78-b3c7-95005d555c8b/oauth2/v2.0/token
+            url: https://login.microsoftonline.com/
+            tenant-id:  bfbb9a2b-6d99-4e78-b3c7-95005d555c8b
+            tenant-name:  Burns & McDonnell
             client-id: 98e0d32c-4ffd-4238-a258-888179a861c8
             application-id: 98e0d32c-4ffd-4238-a258-888179a861c8
     oauth-authorization-parameters:
